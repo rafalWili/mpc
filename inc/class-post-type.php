@@ -24,6 +24,8 @@ class ProjectPostType {
             'supports'           => ['title', 'editor', 'thumbnail'],
             'show_in_rest'       => true,
             'rewrite'            => ['slug' => 'projekty'],
+            'menu_icon' => 'dashicons-portfolio', 
+
         ];
 
         register_post_type('project', $args);

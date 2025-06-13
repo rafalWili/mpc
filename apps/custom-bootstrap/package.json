@@ -1,0 +1,13 @@
+{
+  "name": "custom-bootstrap",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "build:css": "sass ../../assets/scss/custom.scss ../../assets/css/custom.min.css --style=compressed  --no-source-map",
+    "watch:css": "sass --watch ../../assets/scss/custom.scss:../../assets/css/custom.min.css --style=compressed --no-source-map",
+    "postinstall": "yarn run build:css"
+
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

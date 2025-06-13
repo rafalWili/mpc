@@ -16,9 +16,8 @@
         endif; ?>
     </section>
 
-    <div class="mt-5">
-        <?php echo paginate_links(['prev_text' => '&laquo;', 'next_text' => '&raquo;']); ?>
-    </div>
+    <?php get_template_part('template-parts/pagination'); ?>
+
 </main>
 
 <?php get_footer(); ?>

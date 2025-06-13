@@ -19,5 +19,5 @@ yarn watch:css
 
 ###  Reczna kompilacja 
 ```bash
-yarn build:css
+yarn build
 ```

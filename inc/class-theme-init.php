@@ -6,6 +6,7 @@ class ThemeInit {
     private $acf;
     private $admin_notices;
     private $assets;
+    private $admin_columns;
 
     public function __construct() {
 
@@ -18,6 +19,8 @@ class ThemeInit {
         $this->acf = new ProjectACF();
         $this->admin_notices = new AdminNotices();
         $this->assets = new ThemeAssets();
+        $this->admin_columns = new ProjectAdminColumns();
+
 
         add_action('init', [$this->post_type, 'register']);
         add_action('init', [$this->taxonomies, 'register']);

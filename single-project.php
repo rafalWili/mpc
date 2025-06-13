@@ -2,8 +2,8 @@
 
 <div class="container my-4 my-lg-5">
   <?php if (have_posts()) : while (have_posts()) : the_post();
-  $completion_year = get_field('rok_realizacji');
-  $powierzchnia = get_field('powierzchnia')
+    $completion_year = get_field('rok_realizacji');
+    $powierzchnia = get_field('powierzchnia')
   ?>
     <article <?php post_class('card shadow-sm border-0 overflow-hidden'); ?>>
       <div class="row g-0">

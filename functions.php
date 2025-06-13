@@ -6,6 +6,7 @@ require_once __DIR__ . '/inc/class-taxonomies.php';
 require_once __DIR__ . '/inc/class-acf-fields.php';
 require_once __DIR__ . '/inc/class-admin-notices.php';
 require_once __DIR__ . '/inc/class-theme-assets.php';
+require_once __DIR__ . '/inc/class-project-admin-columns.php';
 require_once __DIR__ . '/inc/class-theme-init.php';
 
 // run the theme initialization
